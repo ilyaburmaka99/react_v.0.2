@@ -1,0 +1,35 @@
+.block{
+  width: 90%;
+  height: 100%;
+  background: #e3e3e3;
+  left: 5%; /* Отступ в процентах от левого края окна */
+  position: absolute; /* Абсолютное позиционирование блока */
+  margin-top: 20px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+}
+.tab:hover,.tab{
+  margin-top: 25px;
+  margin-left: 10px;
+  padding: 5px 70px;
+  border:1px solid #e3e3e3;
+  text-decoration: none;
+  color: #000;
+}
+.active{
+  background: blue;
+  color:#fff;
+  font-weight:800;
+}
+.background_big{
+  background: #fff;
+  width: 97%;
+  height: 90%;
+  margin-left: 25px;
+}
+.visible{
+  padding: 10px 0px 0px 10px;
+  margin-left: 5px;
+  display: block;
+}
+.hidden{
+  display: none;
+}
